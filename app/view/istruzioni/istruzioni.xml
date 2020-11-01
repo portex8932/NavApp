@@ -1,0 +1,66 @@
+<Page>
+    <Page.actionar>
+        <ActionBar title="AppNav"/>
+    </Page.actionar>
+
+    <ScrollView>
+        <FlexboxLayout flexDirection="row">
+            <TextView editable="false">
+                <FormattedString>
+                <Span  text="Istruzioni per l'uso di AppNav." class="title"/>
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="La suddetta app è stata progettata per permettere, al gentile utente, di poter risolvere i vari problemi di navigazione, sia essa marittima o aerea, grazie alla determinazione dei parametri dei due principali percorsi di navigazione: Lossodromia e Ortodromia. Per sfruttare al meglio e nel modo corretto la suddetta app, si raccomanda pertanto il gentile utente, di consultare attentamente la seguente pagina di istruzioni, al fine di non incontrare errori e problemi durante l'uso." class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Informazioni generali" class="sub-title" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Si consiglia al gentile utente di non lasciare i campi di inserimento dati, di tutte le varie pagine di calcoli, vuoti al fine di non avere messaggi di errori indesiderati. Trattandosi di un'app di navigazione, i parametri di inserimento nei vari campi appartengono a quattro famiglie di dati: latitudine; longitudine; distanze e rotte. Si ricorda che le latitudini e longitudini vengono espressi in gradi sessagesimali, rispattivamente minori o uguali a 90° per le latitudini e minori o uguali a 180° per le longitudini. Per inserire i dati di latitudine e longitudine sono presenti tre caselle di inserimento:
+ Prima casella: inserimento gradi, inserire un numero compreso tra 0 e 90/180 a seconda che si tratti di latitudine o di longitudine.
+ Seconda casella: inserimento primi, si può inserire un numero decimale minore di 60, si ricorda che maggiore sono le cifre decimali e maggiore è l'accuratezza che si richiede.
+ Terza casella: inserimento della lettera coordinata, 'N'/'S' per le latitudini e 'E'/'W' per le longitudini.
+ Per inserire il valore della distanza (o cammino) è a disposizione, nelle pagine che richiedono tale valore, una casella nella quale si può inserire un valore decimale. Si ricorda che il valore da inserire deve essere in miglia nautiche (NM).
+ Per l'inserimento della rotta è prevista una casella, nelle pagine che richiedono tale valore, nella quale si consiglia l'inserimento di un valore intero e non decimale."
+                       class="testo"/>
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Quando si inserisce un dato decimale SI DEVE usare come separatore il ' . '" class="testo-evidenza" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Pagine lossodromia" class="sub-title" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Relative al percorso lossodromico sono disponibili due pagine di calcolo, alle quali si può accedere grazie ai due pulsanti presenti nella home-page sotto il titolo 'Lossodromia'. I due rispettivi pulsanti hanno la dicitura del problema lossodromico che si va ad affrontare."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Primo problema" class="testo-evidenza" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Questa pagina è dedicata a risolvere il primo problema di lossodromia, ovvero note le coordinate geografiche del punto di partenza, noto il cammino tra il punto di partenza e di arrivo e la rotta per giungere a tale punto, vengono calcolate le coordinate del punto di arrivo. Nella pagina sono presenti i riquadri di inserimento dei valari sù citati, per il corretto inserimento fare rifermento al paragrafo precedente 'Infromazioni generali'. Una volta inseriti i vari dati è possibile scegliere il modello terrestre sul quale basare i calcoli, i modelli sono tre: Terra sferica; WGS84, tale modello è il modello ellissoidico World Geodetic System 1984. Per la scelta del modello, caro utente, basta far comparire tra le barre orizzontali il nome del modello presente nella lista. Solo dopo aver pigiato il pulsante per l'esecuzione dei calcoli compariranno tutti gli output, previsti dal problema, nell'apposito riquadro dei risultati."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Secondo problema" class="testo-evidenza" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Questa pagina è dedicata alla risoluzione del secondo problema di lossodromia, ovvero note le coordinate sia del punto di partenza che di arrivo, si determinano i valori della rotta da seguire e del cammino che sussiste tra i due punti. Le indicazioni di inserimento dei vlori necessari per risolvere sono simili alle indicazioni fornite per il primo problema e ancora in precedenza nelle informazioni generali."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Ortodromia" class="sub-title" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Relative al percorso ortodromico sono disponibili due pagine di calcolo, alle quali si può accedere grazie ai due pulsanti presenti nella home-page sotto il titolo 'Ortodromia'. I due rispettivi pulsanti hanno la dicitura: 'Con waypoints' e 'Senza waypoints'."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Ortodromia con waypoints" class="testo-evidenza" />
+                    <Span text="\n"/>
+                <Span textWrap="true" text="Tale pagina si prefissa di calcolare, una volta note le coordinate sia del punto di partenza che di arrivo, tutti i parametri che caratterizzano l'ortodromia ed inoltre la determinazione delle coordinate geografiche dei waypoints, ovvero i punti compresi, tra il punto di partenza e di arrivo, nei quali viene effettuata la spezzata lossodromica. Si ricorda al gentile utente di inserire, prima di lanciare il calcolo, il numero desiderato dei waypoints e il metodo con il quale andare ad effettuare il calcolo dei medesimi. Si ricorda inoltre che per numero di waypoints s'intnede il numero dei punti che cadono tra il punto di partenza e di arrivo e quindi ad esclusioni di questi ultimi due punti."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span  textWrap="true" text="Ortodromia senza waypoints" class="testo-evidenza" />
+                    <Span text="\n"/>
+                <Span textWrap="true" text="Tale pagina,grazie al layout a schede, si prefissa di risolvere tre tipologie di problema: Primo problema; Secondo Problema; Navigazione mista.
+Primo problema: a tal problema è dedicata la prima scheda della pagina. In analogia al primo problema di lossodromia, tale scheda calcola tutti i vari parametri dell'ortodromia una volta note le coordinate geografiche del punto di partenza e i valori di cammino e rotta iniziale. Solo dopo aver inizializzato i calcoli, all'utente è offerta la possibilità di confrontare i risultati ottenuti con i risultati che si otterrebbero attraverso la risoluzione della lossodromia.
+Secondo problema: per la risoluzione di tale problema è stata predisposta la seconda scheda. Note le coordinate sia del punto di partenza che di arrivo, si vanno a calcolare tutti i vari parametri dell'ortodromia. Come per il precedente caso, all'utente è offerta la possibilità di confrontare i risultati ottenuti con i risultati ce si otterrebbero con la lossodromia.
+Navigazione mista: per questo problema è dedicta la terza ed ultima scheda della pagina. Il problema che si va a risolvere, una volta noto il parallelo limite, è la determinazione dei parametri delle due nuove ortodromie, nonchè le coordinate geografiche dei due nuovi vertici, e dei parametri relativi al percorso effettuato lungo il parallelo limite tra i due nuovi vertici."
+                       class="testo" />
+                    <Span text="\n"/>
+                <Span textWrap="true" text="La scheda relativa alla navigazione mista deve essere utilizzata solo dopo aver usato la scheda di risoluzione del secondo di problema di ortodromia, il parallelo limite deve essere inferiore alla latitudine del vertice tra il punto di partenza e di arrivo."
+                       class="testo-evidenza" />
+                </FormattedString>
+            </TextView>
+        </FlexboxLayout>
+    </ScrollView>
+
+</Page>

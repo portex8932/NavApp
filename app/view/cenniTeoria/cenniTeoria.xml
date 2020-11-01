@@ -1,0 +1,149 @@
+<Page>
+    <Page.actionar>
+        <ActionBar title="AppNav"/>
+    </Page.actionar>
+
+    <ScrollView>
+        <StackLayout>
+            <TextView editable="false" class="title" >
+                <Span text="Cenni di teoria" />
+            </TextView>
+
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Forme della Terra" class="sub-title" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Dalla " /> <Span text="Geodesia, " class="grassetto" />
+                    <Span text="scienza che studia forma e dimensioni della Terra e si occupa di determinare il campo gravitazionale terrestre, " />
+                    <Span text="emerge che la nostra Terra si identifica con un solido molto complesso denominato " /> <Span text="Geoide. " class="corsivo" />
+                    <Span text="Tale solido, non geometrico è associato alla superficie matematica terrestre, che si otterrebbe se i continenti fossero completamente sommersi dalle acque e si ipotizzi che le acque siano perturbate solo dalla forza gravitazionale terrestre e dalla forza centrifuga. " />
+                    <Span text="Pertanto la superficie del geoide è identificata dalla superficie di egual potenziale gravitazionale al livello medio del mare. "/>
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Dunque, un solido sì fatto renderebbe altamente complicata la vita del navigante per la risoluzione dei vari problemi legati alla navigazione, " />
+                    <Span text="pertanto si adoperano dei modelli che meglio approssimano il geoide, essi sono: " />
+                    <Span text="\n" />  <!--vado a capo-->
+                </FormattedString>
+            </TextView>
+
+            <TextView editable="false" class="elenco">
+                    <Span text="Ellissoidico" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Sferico" />
+                    <Span text="\n" />  <!--vado a capo-->
+            </TextView>
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="Il modello ellissoidico prevede come solido di riferimento un ellissoide, figura geometrica ottenuta dalla rotazione di un ellisse attorno ad uno dei suoi assi. " />
+                    <Span text="Per il modello ellissoidico il datum, sistema di riferimento geodetico, preso in esame nell'app è di carattere globale e risulta essere il " />
+                    <Span text="WGS84" class="grassetto" />
+                    <Span text=", World Geodetic System 1984. " />
+                    <Span text="Il modello ellissoidico, seppur più semplice rispetto al geoide, in applicazioni in cui non sono richieste elevate precisioni nei calcoli, come la navigazione, è possibile sostituire l'ellissoide con il modello sferico, semplificando notevolmente i calcoli seppur introducendo errori di approssimazione." />
+                    <Span text="\n" />  <!--vado a capo-->
+                </FormattedString>
+            </TextView>
+
+            <TextView editable="false" class="title">
+                <Span text="Percorsi nautici" />
+            </TextView>
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="I due principali percorsi nautici sono " />
+                    <Span text="Lossodromia " class="grassetto" />
+                    <Span text="e "/>
+                    <Span text="Ortodromia." class="grassetto" />
+                    <Span text="Entrambi i perorsi furono trattati per primo da " />
+                    <Span text="Pedro Nuñez, " class="corsivo" />
+                    <Span text="noto matematico e cartografo portoghese del XVI secolo, nel suo " />
+                    <Span text="Tratado de Sphera (1537), " class="corsivo" />
+                    <Span text="opera che venne successivamente tradotta in latino con il titolo " />
+                    <Span text="De arte atque ratione navigandi (1566)." />
+                </FormattedString>
+            </TextView>
+
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="Lossodromia" class="sub-title"/>
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Si definisce la lossodromia come segue: " />
+                </FormattedString>
+            </TextView>
+            <TextView editable="false" class="definizione">
+                <Span text="Curva che sulle superfici di rotazione, incontra i meridiani secondo un angolo costante, avvolgendosi attorno ai poli senza mai raggiungerli."/>
+            </TextView>
+            <Image src="~/images/lossodromia.png" class="immagine"/>
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="Dall'immagine e dalla definizione emerge il famoso " />
+                    <Span text="paradosso della lossodromia, " class="grassetto" />
+                    <Span text="ovvero un qualsiasi mobile, nave od aereo, che naviga con rotta vera costante non può, teoricamente, raggiungere i poli, ma piò approdare in località geografiche aventi latitudine pari a 89°59'59.9999999'', che a livello pratico fanno parte dei poli geografici. " />
+                    <Span text="Come ogni paradosso ha la soluzione, anche questo ne ha una. Si consideri che nei calcoli relativi a tale traiettoria compare la funzione trigonometrica " />
+                    <Span text="tan(&#966;), " class="corsivo" fontWeight="Bold"/>
+                    <Span text="relativa alla latitudine, funzione che non ha valore quando il parametro è pari a 90°, pertanto, a livello teorico, risulta impossibile raggiungere i poli geografici." />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Si noti, dalla definizione e figura, che la lossodromia è una curva, simile ad una spirale logaritmica, che viene modellata in base al modello terrestre in considerazione, quindi si parla di lossodromia ellisoidica o sferica a seconda che il modello, su cui si fa riferimento, sia un ellissoide o una sfera." />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Tra due generici punti, A e B, passano infinte lossodromie. Pertanto ai fini nautici, tra le infinte lossodromie si considera solo quella caratterizzata da minor cammino." />
+                </FormattedString>
+            </TextView>
+
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="Ortodromia" class="sub-title" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="L'ortodromia viene viene definita come segue: " />
+                </FormattedString>
+            </TextView>
+            <TextView editable="false" class="definizione">
+                <Span text="Arco di circonferenza massima che sottende un angolo minore di 180°" />
+            </TextView>
+            <Image src="~/images/ortodromia.png" />
+            <TextView editable="false">
+                <FormattedString>
+                    <Span text="L'ortodromia è una curva che, a differenza della precedente lossodromia, appartiene alla categoria delle curve " />
+                    <Span text="geodetiche, " class="corsivo" />
+                    <Span text="ovvero curve più brevi che congiungono due punti su una superficie. " />
+                    <Span text="Dunque l'ortodromia sarà la traiettoria caratterizzata da minor distanza a congiungere due punti appartenenti alla sfera terrestre. " />
+                    <Span text="Questo può trarre in inganno, perché si è soliti pensare che il percorso caratterizzato da minor distanza sia un segmento di una retta passante per i punti. " />
+                    <Span text="Ciò non si verifica nel caso dell'ortodromia perché non si lavora più con la geometria classica, o geometria " />
+                    <Span text="Euclidea, " class="corsivo" />
+                    <Span text="ma si lavora nell'ambito della geometria " />
+                    <Span text="non Euclidea, " class="corsivo" />
+                    <Span text="attraverso l'applicazione dei teoremi della " />
+                    <Span text="trigonometria sferica." class="corsivo" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Tale traiettoria, come mostrato in figura, si sviluppa notevolmente in latitudine fino al raggiungimento del punto più elevato denominato " />
+                    <Span text="Vertice." class="grassetto" />
+                    <Span text="Ciò può comportare una serie di problematiche al navigante, infatti se il vertice cade in zone ad elevate latitudini il navigante andrà incontro ad una navigazione con percentuale di rischio maggiore, dovuta alla possibile presenza di ghiaccio ad esempio." />
+                </FormattedString>
+            </TextView>
+
+            <TextView editable="false" class="centro">
+                <Span text="Confronto dei percorsi" class="sub-title" />
+            </TextView>
+            <GridLayout rows="auto, auto" columns="*,*" >
+                <Label row="0" col="0" textWrap="true" text="Lossodromia" class="sub-title centro" />
+                <Label row="0" col="1" textWrap="true" text="Ortodromia" class="sub-title centro" />
+                <TextView row="1" col="0" editable="false" class="elenco">
+                    <Span text="Valore di rotta unico tra due punti" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Semplice da seguire" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Maggior distanza tra i due punti" />
+                </TextView>
+                <TextView row="1" col="1" editable="false" class="elenco">
+                    <Span text="Valore di rotta variabile tra due punti" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Difficile da seguire" />
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="\n" />  <!--vado a capo-->
+                    <Span text="Minor distanza tra i due punti" />
+                </TextView>
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>
